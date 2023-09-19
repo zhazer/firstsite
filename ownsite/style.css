@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  background: #bdae82;
+  width: 220px;
+  height: 55px;
+}
+p {
+  margin-bottom: 0;
+}
+.block1 {
+  max-width: 1440px;
+  max-height: 910px;
+  background: url(/images/bg.jpg);
+}
+.header {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img {
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.nav-item a:hover {
+  color: #bdae82;
+}
+.alexa {
+  margin-top: 250px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.alexa h1 {
+  max-width: 500px;
+  max-height: 120px;
+  color: #fff;
+  font-family: "Merriweather", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120px;
+}
+.alexa p {
+  margin-top: 15px;
+  max-width: 470px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+.alexa button {
+  margin-top: 25px;
+  margin-bottom: 300px;
+}
+.alexa button:hover {
+  color: #fff;
+  transition: 0.4s;
+}
+.hireMe {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.block2 {
+  background-color: #000;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+.skills p {
+  color: #bdae82;
+  font-family: "Merriweather", sans-serif;
+  font-size: 40px;
+  margin: 0 20px;
+}
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0 60px;
+}
+.line {
+  width: 15%;
+  height: 2px;
+  background-color: #bdae82;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 60px 20px 0;
+}
+.my-card {
+  width: 320px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.my-card span {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.my-card p {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  padding: 0 20px 8px;
+  margin-bottom: 20px;
+}
+.my-card img {
+  margin-bottom: 50px;
+}
+/* .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+.portfolio p {
+  max-width: 181px;
+  color: #bdae82;
+  text-align: center;
+  font-family: "Merriweather", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.season {
+  margin-right: 5px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.season button {
+  width: 220px;
+  height: 55px;
+  border: solid 2px #bdae82;
+}
+.season button:hover {
+  color: #fff;
+  border: solid 2px #bdae82;
+  transition: 0.4s;
+}
+/* .season button:active {
+  background-color: #bdae82;
+} */
+.btn {
+  color: #bdae82;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+.collage {
+  padding-top: 60px;
+  /* display: flex; */
+  background-color: #000;
+}
+.collage img {
+  margin: 10px;
+}
+.block3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  padding: 0 0 100px;
+}
+.video_image img {
+  margin: 0 20px;
+  position: relative;
+}
+.player {
+  position: absolute;
+  bottom: 418px;
+  left: 630px;
+}
+.about_price {
+  display: flex;
+  justify-content: center;
+  column-gap: 25px;
+}
+.price {
+  padding: 43px;
+  border: solid 2px #bdae82;
+  width: 450px;
+  height: 505px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price h3 {
+  color: #fff;
+  text-align: center;
+  font-family: "Merriweather", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+.price span {
+  color: #bdae82;
+  text-align: center;
+  font-family: "Merriweather", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.price p {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.order {
+  margin-top: 40px;
+  background-color: #bdae82;
+  width: 220px;
+  height: 55px;
+}
+.order button {
+  color: #000;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.block4 {
+  background: url(./images/contacts.png);
+  display: flex;
+  justify-content: center;
+}
+.forma {
+  display: flex;
+  width: 1440px;
+  padding: 180px 20px 195px 970px;
+  justify-content: flex-end;
+}
+#input {
+  width: 450px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+#message {
+  width: 450px;
+  height: 100px;
+}
+.bttn {
+  margin-top: 24px;
+  background: #bdae82;
+  width: 220px;
+  height: 55px;
+}
+#send {
+  color: #000;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+.footer {
+  padding: 50px 20px;
+  width: 1440px;
+  height: 150px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer p {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.github {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.github img {
+  width: 19px;
+  height: 50px;
+}
